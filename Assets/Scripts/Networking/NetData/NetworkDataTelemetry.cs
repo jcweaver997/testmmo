@@ -67,5 +67,7 @@ namespace poopstory2_server.NetData
             index = ReadFloat(data, index, out qw);
             return new NetworkDataTelemetry(pid, px, py, pz, qx, qy, qz, qw);
         }
+
+
     }
 }

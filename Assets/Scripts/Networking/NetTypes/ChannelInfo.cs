@@ -16,7 +16,6 @@ namespace poopstory2_server.NetTypes
         public int players;
         public int maxPlayers;
         public ChannelStatus channelStatus;
-
         public override string ToString()
         {
             return $"{channelStatus} with {players}/{maxPlayers}";

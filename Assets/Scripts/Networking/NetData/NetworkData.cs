@@ -64,7 +64,6 @@ namespace poopstory2_server.NetData
         {
             NetworkCode code = (NetworkCode)BitConverter.ToInt32(data, 4);
             NetworkData nd = null;
-            Console.WriteLine($"code {code} val {BitConverter.ToInt32(data, 4)}");
             byte[] d = new byte[data.Length - 8];
             Buffer.BlockCopy(data, 8, d, 0, data.Length - 8);
             nd = NetworkDataTypes.GetT(code)?.ParseData(d);

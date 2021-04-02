@@ -23,6 +23,7 @@ namespace poopstory2_server.NetData
             Add(new NetworkDataTelemetry(), NetworkCode.Telemetry);
             Add(new NetworkDataPlayerInfo(), NetworkCode.PlayerInfo);
             Add(new NetworkDataPlayerInfoRequest(), NetworkCode.PlayerInfoRequest);
+            Add(new NetworkDataPlayerLeft(), NetworkCode.PlayerLeft);
 
         }
 

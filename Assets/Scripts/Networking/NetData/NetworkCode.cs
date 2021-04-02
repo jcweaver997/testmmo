@@ -11,6 +11,6 @@ namespace poopstory2_server.NetData
 
     public enum NetworkCode : uint
     {
-        Null, Error, KeepAlive, Version, Login, ChannelList, ChannelSelect, Telemetry, PlayerInfoRequest, PlayerInfo
+        Null, Error, KeepAlive, Version, Login, ChannelList, ChannelSelect, Telemetry, PlayerInfoRequest, PlayerInfo, PlayerLeft
     }
 }
